@@ -1,18 +1,14 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: publications in reversed chronological order.
-years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
-nav: true
-nav_order: 1
+title: Publications
+permalink: /pubs/
 ---
-<!-- _pages/publications.md -->  
-<div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+#### Selected Highlights
+* __Chettih SN__, Harvey CD (2019). Single-neuron perturbations reveal feature=specific competition in V1. Nature. [[pdf]](/pdfs/influence.pdf)
 
-</div>
+* Tseng S*, __Chettih SN__\*, Arlt C, Barroso-Luque R, Harvey CD (2022). Shared and specialized coding across posterior cortical areas for dynamic navigation decisions. Neuron. [[pdf]](/pdfs/ppc.pdf)
+
+#### Journal Articles
+
+coming soon...
