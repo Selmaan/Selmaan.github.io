@@ -7,7 +7,7 @@ permalink: /pubs/
 #### Selected Highlights
 * __Chettih, SN__; Harvey CD (2019). Single-neuron perturbations reveal feature=specific competition in V1. *Nature*. [[pdf]](/pdfs/influence.pdf)
 
-* Tseng, S*; __Chettih, SN__\*; Arlt, C; Barroso-Luque, R; Harvey CD (2022). Shared and specialized coding across posterior cortical areas for dynamic navigation decisions. *Neuron*. [[pdf]](/pdfs/ppc.pdf)
+* Tseng, S*; __Chettih, SN__*; Arlt, C; Barroso-Luque, R; Harvey CD (2022). Shared and specialized coding across posterior cortical areas for dynamic navigation decisions. *Neuron*. [[pdf]](/pdfs/ppc.pdf)
 
 #### Journal Articles
 
@@ -29,7 +29,7 @@ permalink: /pubs/
 
 * Driscoll, LN; Petit, NL; Minderer, M; __Chettih, SN__; Harvey, CD (2017). Dynamic reorganization of neuronal activity patterns in parietal cortex. *Cell*.
 
-* Heiney, SA; Wohl, MP; Chettih, SN; Ruffolo, LI; Medina, JF (2014). Cerebellar-dependent expression of motor learning during eyeblink conditioning in head-fixed mice. *Journal of Neuroscience*.
+* Heiney, SA; Wohl, MP; __Chettih, SN__; Ruffolo, LI; Medina, JF (2014). Cerebellar-dependent expression of motor learning during eyeblink conditioning in head-fixed mice. *Journal of Neuroscience*.
 
 * __Chettih, SN__; Durgin, FH; Grodner, DJ (2012). Mixing metaphors in the cerebral hemispheres: what happens when careers collide? *JEP: LMC*.
 
