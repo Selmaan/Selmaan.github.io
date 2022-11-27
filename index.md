@@ -7,4 +7,4 @@ As a postdoctoral fellow in the Aronov lab, my work is *funky*. We bring the *ch
 
 I received my PhD from Harvard in the Harvey lab, where my work was *gnarly*. We *shredded* PPC with novel optical tools and *devastated* the decision making field with our spherical treadmills.
 
-You can find a list of my publications with selected highlights [here](selmaan.github.io/pubs), or view my [google scholar profile](https://scholar.google.com/citations?hl=en&user=keLpwxcAAAAJ&view_op=list_works&sortby=pubdate)
+You can find a list of my publications with selected highlights [here](https://selmaan.github.io/pubs/), or view my [google scholar profile](https://scholar.google.com/citations?hl=en&user=keLpwxcAAAAJ&view_op=list_works&sortby=pubdate)
