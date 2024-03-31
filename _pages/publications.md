@@ -5,7 +5,7 @@ permalink: /pubs/
 ---
 
 #### Selected Highlights
-* __Chettih, SN__\*; Mackevicius, EM\*; Hale, S; Aronov, D (2023). Barcoding of episodic memories in the hippocampus of a food-caching bird. *bioRxiv*. [[link]](https://www.biorxiv.org/content/10.1101/2023.05.27.542597v1)
+* __Chettih, SN__\*; Mackevicius, EM\*; Hale, S; Aronov, D (2024). Barcoding of episodic memories in the hippocampus of a food-caching bird. *Cell*. [[pdf]](/pdfs/barcode.pdf)
 
 * __Chettih, SN__; Harvey CD (2019). Single-neuron perturbations reveal feature-specific competition in V1. *Nature*. [[pdf]](/pdfs/influence.pdf)
 
