@@ -8,7 +8,7 @@ permalink: /pubs/
 #### Selected Highlights
 * __Chettih, SN__\*; Mackevicius, EM\*; Hale, S; Aronov, D (2024). Barcoding of episodic memories in the hippocampus of a food-caching bird. *Cell*. [[pdf]](/pdfs/barcode.pdf)
 
-* Fang, C\*; Lindsey, J\*; Abbott, LF; Aronov, D; __Chettih, SN__ (2024). Barcode activity in a recurrent network model of the hippocampus enables efficient memory binding. *bioRxiv*. [[link]](https://www.biorxiv.org/content/10.1101/2024.09.09.612073v3)
+* Fang, C\*; Lindsey, J\*; Abbott, LF; Aronov, D; __Chettih, SN__ (2024). Barcode activity in a recurrent network model of the hippocampus enables efficient memory binding. *eLife*. [[link]](https://elifesciences.org/reviewed-preprints/103512)
 
 * __Chettih, SN__; Harvey CD (2019). Single-neuron perturbations reveal feature-specific competition in V1. *Nature*. [[pdf]](/pdfs/influence.pdf)
 
