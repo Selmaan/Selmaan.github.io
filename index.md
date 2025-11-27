@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<img style="float:right;max-width:33%" src="/images/headshot_crop.jpeg">
+<img style="float:right;max-width:33%" src="/images/headshot.jpeg">
 
 I'm a systems neuroscientist studying the neural mechanisms underlying cognition. I am particularly drawn to dynamic cognitive abilities utilized during natural behavior, such as chickadee food-caching behavior. I like to unlock novel research directions via tool development, with specialties in electrophysiological, optical, behavioral and computational methods.
 
