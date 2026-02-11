@@ -1,0 +1,62 @@
+/* Custom styling improvements for better spacing and layout */
+
+/* Improve home page layout */
+.home {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Better spacing for the main content area */
+.page-content {
+    padding: 40px 0;
+}
+
+/* Style the home page intro section with image */
+.home .wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+/* Text content styling - add justification and better spacing */
+.home .wrapper > div:first-child {
+    flex: 1;
+    min-width: 300px;
+}
+
+.home .wrapper p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+/* Profile image styling */
+.home .wrapper img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section at bottom */
+.home footer {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #e8e8e8;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .home .wrapper {
+          flex-direction: column;
+          gap: 30px;
+  }
+
+    .home .wrapper img {
+          max-width: 100%;
+  }
+}
