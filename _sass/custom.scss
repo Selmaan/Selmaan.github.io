@@ -1,57 +1,237 @@
-/* Custom styling improvements for better spacing and layout */
+// -----------------------------------------------
+// Typography
+// -----------------------------------------------
 
-/* Better spacing for the main content area */
+body {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #1a1a2e;
+  letter-spacing: -0.01em;
+}
+
+// Use Lora for body paragraphs to give a warmer, academic feel
+.post-content p,
+.page-content p {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.0rem;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #1a1a2e;
+}
+
+
+// -----------------------------------------------
+// Header
+// -----------------------------------------------
+
+.site-header {
+  border-top: 3px solid #2c5f8a;
+  border-bottom: 1px solid #e8e8e4;
+  background-color: #fafaf8;
+}
+
+.site-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  color: #1a1a2e !important;
+
+  &:visited {
+    color: #1a1a2e !important;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #2c5f8a !important;
+  }
+}
+
+.site-nav .page-link {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #4a4a6a;
+
+  &:hover {
+    color: #2c5f8a;
+    text-decoration: none;
+  }
+}
+
+
+// -----------------------------------------------
+// Page layout
+// -----------------------------------------------
+
 .page-content {
-  padding: 40px 0;
+  padding: 48px 0;
 }
 
-/* Style the wrapper to use flexbox layout */
 .wrapper {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  max-width: 1000px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 0 30px;
 }
 
-/* Text content styling - add justification and better spacing */
+// Home page: side-by-side bio + photo
 .post {
-  flex: 1;
-  min-width: 300px;
+  .post-content {
+    // Float image sits naturally beside text
+  }
+}
+
+.post-content {
+  img[style*="float:right"],
+  img[style*="float: right"] {
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    margin-left: 28px;
+    margin-bottom: 16px;
+  }
 }
 
 .post p {
-  text-align: justify;
+  line-height: 1.75;
+  margin-bottom: 1.25em;
+}
+
+
+// -----------------------------------------------
+// Post / page title
+// -----------------------------------------------
+
+.post-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid #e8e8e4;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+
+// -----------------------------------------------
+// Links
+// -----------------------------------------------
+
+a {
+  color: #2c5f8a;
+
+  &:visited {
+    color: #1e4a70;
+  }
+
+  &:hover {
+    color: #1a1a2e;
+    text-decoration: underline;
+  }
+}
+
+
+// -----------------------------------------------
+// Publications page
+// -----------------------------------------------
+
+// Section headings (h4 used on pubs page)
+.post-content h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #767676;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e8e8e4;
+}
+
+// Publication list items
+.post-content ul li {
+  font-family: "Lora", Georgia, serif;
+  font-size: 0.95rem;
   line-height: 1.6;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.85em;
+  color: #2a2a40;
 }
 
-/* Profile image styling - target img elements in the post */
-.post img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-left: 20px;
+// Bold author name (wrapped in __ __)
+.post-content ul li strong {
+  font-weight: 600;
+  color: #1a1a2e;
 }
 
-/* Contact section at bottom */
+// Journal name in italics
+.post-content ul li em {
+  color: #4a4a6a;
+}
+
+// PDF/link tags
+.post-content ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border: 1px solid #2c5f8a;
+  border-radius: 3px;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #2c5f8a;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+// Horizontal rule separating highlights from full list
+.post-content hr {
+  border: none;
+  border-top: 1px solid #e8e8e4;
+  margin: 2rem 0;
+}
+
+
+// -----------------------------------------------
+// Footer
+// -----------------------------------------------
+
 .site-footer {
-  margin-top: 60px;
+  border-top: 1px solid #e8e8e4;
+  margin-top: 40px;
+  padding: 24px 0;
+  color: #767676;
+  font-size: 0.875rem;
 }
 
-/* Responsive adjustments */
+
+// -----------------------------------------------
+// Responsive
+// -----------------------------------------------
+
 @media screen and (max-width: 768px) {
   .wrapper {
-    flex-direction: column;
-    gap: 30px;
+    padding: 0 20px;
   }
-  
-  .post img {
-    max-width: 100%;
-    margin-left: 0;
+
+  .post-content img[style*="float:right"],
+  .post-content img[style*="float: right"] {
+    float: none !important;
+    display: block;
+    max-width: 80% !important;
+    margin: 0 auto 20px auto;
   }
 }
